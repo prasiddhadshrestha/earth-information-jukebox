@@ -1,0 +1,26 @@
+# Python / uv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Node / Frontend
+node_modules/
+.npm/
+projects/earth_jukebox/frontend/dist/
+projects/earth_jukebox/frontend/node_modules/
+
+# Environment & Secrets
+.env
+.env.local
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

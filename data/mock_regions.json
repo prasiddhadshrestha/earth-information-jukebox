@@ -1,0 +1,62 @@
+{
+  "project": "The Earth Information Jukebox",
+  "version": "1.0.0",
+  "mission": "NASA Space Apps Challenge 2026",
+  "regions": [
+    {
+      "id": "arctic",
+      "name": "Arctic Polar Ice Cap",
+      "coordinates": {"lat": 78.0, "lng": 15.0},
+      "indicator": "Sea Ice Minimum Extent",
+      "unit": "Million sq km",
+      "baseline_value": 7.5,
+      "time_series": [
+        {"year": 2000, "raw_val": 6.32, "distress_score": 0.15, "pitch_hz": 180, "harmonic_dissonance": 0.05, "pulse_bpm": 60},
+        {"year": 2005, "raw_val": 5.57, "distress_score": 0.32, "pitch_hz": 230, "harmonic_dissonance": 0.18, "pulse_bpm": 72},
+        {"year": 2010, "raw_val": 4.90, "distress_score": 0.48, "pitch_hz": 290, "harmonic_dissonance": 0.35, "pulse_bpm": 86},
+        {"year": 2012, "raw_val": 3.41, "distress_score": 0.95, "pitch_hz": 520, "harmonic_dissonance": 0.88, "pulse_bpm": 140},
+        {"year": 2015, "raw_val": 4.41, "distress_score": 0.60, "pitch_hz": 340, "harmonic_dissonance": 0.50, "pulse_bpm": 98},
+        {"year": 2020, "raw_val": 3.82, "distress_score": 0.82, "pitch_hz": 460, "harmonic_dissonance": 0.74, "pulse_bpm": 125},
+        {"year": 2024, "raw_val": 4.28, "distress_score": 0.68, "pitch_hz": 380, "harmonic_dissonance": 0.58, "pulse_bpm": 105},
+        {"year": 2026, "raw_val": 3.65, "distress_score": 0.88, "pitch_hz": 490, "harmonic_dissonance": 0.82, "pulse_bpm": 132}
+      ],
+      "narrative": "Record sea ice retreat observed. Notice the spike in 2012 producing high-frequency tension chords."
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon River Basin",
+      "coordinates": {"lat": -3.46, "lng": -62.21},
+      "indicator": "Vegetation Canopy Deficit (NDVI Loss)",
+      "unit": "Normalized Anomaly",
+      "baseline_value": 0.85,
+      "time_series": [
+        {"year": 2000, "raw_val": 0.82, "distress_score": 0.08, "pitch_hz": 150, "harmonic_dissonance": 0.02, "pulse_bpm": 55},
+        {"year": 2005, "raw_val": 0.74, "distress_score": 0.35, "pitch_hz": 240, "harmonic_dissonance": 0.22, "pulse_bpm": 75},
+        {"year": 2010, "raw_val": 0.69, "distress_score": 0.52, "pitch_hz": 310, "harmonic_dissonance": 0.40, "pulse_bpm": 90},
+        {"year": 2015, "raw_val": 0.65, "distress_score": 0.64, "pitch_hz": 360, "harmonic_dissonance": 0.55, "pulse_bpm": 102},
+        {"year": 2020, "raw_val": 0.58, "distress_score": 0.80, "pitch_hz": 440, "harmonic_dissonance": 0.75, "pulse_bpm": 120},
+        {"year": 2024, "raw_val": 0.52, "distress_score": 0.92, "pitch_hz": 510, "harmonic_dissonance": 0.89, "pulse_bpm": 138},
+        {"year": 2026, "raw_val": 0.50, "distress_score": 0.96, "pitch_hz": 540, "harmonic_dissonance": 0.94, "pulse_bpm": 145}
+      ],
+      "narrative": "Severe drought and clearing cycles degrade canopy density, triggering rapid minor second beat frequencies."
+    },
+    {
+      "id": "barrier_reef",
+      "name": "Great Barrier Reef",
+      "coordinates": {"lat": -18.28, "lng": 147.69},
+      "indicator": "Sea Surface Temperature Anomaly",
+      "unit": "Deg C above baseline",
+      "baseline_value": 26.2,
+      "time_series": [
+        {"year": 2000, "raw_val": 0.2, "distress_score": 0.10, "pitch_hz": 160, "harmonic_dissonance": 0.04, "pulse_bpm": 58},
+        {"year": 2005, "raw_val": 0.5, "distress_score": 0.25, "pitch_hz": 210, "harmonic_dissonance": 0.15, "pulse_bpm": 68},
+        {"year": 2010, "raw_val": 0.7, "distress_score": 0.38, "pitch_hz": 260, "harmonic_dissonance": 0.28, "pulse_bpm": 78},
+        {"year": 2016, "raw_val": 1.9, "distress_score": 0.90, "pitch_hz": 480, "harmonic_dissonance": 0.85, "pulse_bpm": 130},
+        {"year": 2020, "raw_val": 1.4, "distress_score": 0.75, "pitch_hz": 410, "harmonic_dissonance": 0.68, "pulse_bpm": 115},
+        {"year": 2024, "raw_val": 2.1, "distress_score": 0.98, "pitch_hz": 530, "harmonic_dissonance": 0.92, "pulse_bpm": 142},
+        {"year": 2026, "raw_val": 2.0, "distress_score": 0.95, "pitch_hz": 515, "harmonic_dissonance": 0.90, "pulse_bpm": 140}
+      ],
+      "narrative": "Unprecedented consecutive mass bleaching events reflected in soaring pitch and chaotic resonant filters."
+    }
+  ]
+}
